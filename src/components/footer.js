@@ -2,16 +2,29 @@ import React from 'react';
 
 const Footer = () => {
   const services = [
-    { title: 'Data Annotation', url: '/' },
-    { title: 'Data Validation', url: '/about' },
-    { title: 'Data Translation', url: '/services' },
-    { title: 'Data Transcription', url: '/portfolio' },
+    { title: 'Data annotation and enhancement', url: '/' },
+    { title: 'Localization - transcription and translation', url: '/about' },
+    { title: 'Data Validation', url: '/services' },
+    { title: 'Custom data sourcing', url: '/portfolio' },
+    { title: 'Content moderation', url: '/portfolio' },
   ];
 
   const solutions = [
-    { title: 'Computer Vision', url: '/' },
-    { title: 'Natural Language Processing (NLP)', url: '/about' },
-    { title: 'Advanced Driver Assistant Syatems (ADAS)', url: '/services' },
+    { title: 'NLP', url: '/' },
+    { title: 'ADAS', url: '/about' },
+    { title: 'Document AI', url: '/services' },
+    { title: 'AI for Voice & Speech Recognition', url: '/services' },
+    { title: 'AI in Education', url: '/services' },
+    { title: 'Generative AI', url: '/services' },
+    { title: 'Conversational AI', url: '/services' },
+   
+  ];
+
+  const company = [
+    { title: 'About', url: '/' },
+    { title: 'Contact', url: '/contact' },
+    { title: 'Career', url: '/career' },
+    { title: 'Jobs', url: '/jobs' },
    
   ];
 
@@ -51,6 +64,19 @@ const Footer = () => {
           <h3 style={styles.sectionTitle}>Solutions</h3>
           <ul style={styles.linkList}>
             {solutions.map((link, index) => (
+              <li key={index} style={styles.listItem}>
+                <a href={link.url} style={styles.link}>
+                  {link.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div style={styles.footerSection}>
+          <h3 style={styles.sectionTitle}>Company</h3>
+          <ul style={styles.linkList}>
+            {company.map((link, index) => (
               <li key={index} style={styles.listItem}>
                 <a href={link.url} style={styles.link}>
                   {link.title}

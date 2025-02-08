@@ -9,6 +9,9 @@ import Usecase from './components/usecases';
 import ScaleAndGrow from './components/scaleandgrow';
 import Quality from './components/quality';
 import Test from './components/test';
+import Testimonial from './components/Tesimonial';
+import Favorite from './components/favoriteapp';
+import TestModal from './components/TestModal';
 
 function App() {
   return (
@@ -19,8 +22,9 @@ function App() {
       <Whatcompanyoffers />
       <Quality />
       <ScaleAndGrow />
-      
       <Test />
+      <Favorite />
+      <Testimonial />
       <Footer />
     </div>
   );
