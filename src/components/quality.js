@@ -29,7 +29,7 @@ const Quality = () => {
             <div style={styles.bigRectangle}>
                 <div style={styles.qualityContainer}>
                     <div style={styles.leftRectangle}>
-                        100%
+                        98%
                     </div>
                     <div style={{ color: 'black' }}>
                         Data Security and Legal Compliance
@@ -42,7 +42,7 @@ const Quality = () => {
             <div style={styles.bigRectangle}>
                 <div style={styles.qualityContainer}>
                     <div style={styles.leftRectangle}>
-                        100%
+                        95%
                     </div>
                     <div style={{ color: 'black' }}>
                         Comprehensive AI Data Solutions
@@ -55,7 +55,7 @@ const Quality = () => {
             <div style={styles.bigRectangle}>
                 <div style={styles.qualityContainer}>
                     <div style={styles.leftRectangle}>
-                        100%
+                        97%
                     </div>
                     <div style={{ color: 'black' }}>
                         Worldwide Sourcing Capabilities
@@ -68,7 +68,7 @@ const Quality = () => {
             <div style={styles.bigRectangle}>
                 <div style={styles.qualityContainer}>
                     <div style={styles.leftRectangle}>
-                        100%
+                        96%
                     </div>
                     <div style={{ color: 'black' }}>
                         Superior Quality & Fast TA
@@ -81,7 +81,7 @@ const Quality = () => {
             <div style={styles.bigRectangle}>
                 <div style={styles.qualityContainer}>
                     <div style={styles.leftRectangle}>
-                        100%
+                        95%
                     </div>
                     <div style={{ color: 'black' }}>
                         A Respected Authority in AI

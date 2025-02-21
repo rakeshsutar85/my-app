@@ -180,6 +180,7 @@ const styles = {
         height: '400px',
         margin: '0 auto', // Center the container
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+       
     },
     heading: {
         fontSize: '44px',

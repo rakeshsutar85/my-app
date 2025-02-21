@@ -1,8 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
+const images = [
+  'image1.jpg', // Replace with actual image URLs
+  'image2.jpg',
+  'image3.jpg',
+  'image4.jpg',
+  'image5.jpg',
+];
 
 const Hero = () => {
-  const [isLanguageOpen, setIsLanguageOpen] = useState(false); // State for dropdown visibility
-  const [selectedLanguage, setSelectedLanguage] = useState('English'); // State for selected language
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState('English');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Auto-scroll every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
   const toggleLanguageDropdown = () => {
     setIsLanguageOpen(!isLanguageOpen);
@@ -10,11 +27,11 @@ const Hero = () => {
 
   const handleLanguageChange = (language) => {
     setSelectedLanguage(language);
-    setIsLanguageOpen(false); // Close dropdown after selection
+    setIsLanguageOpen(false);
   };
 
   return (
-    <div style={styles.hero}>
+    <div style={{ ...styles.hero, backgroundImage: `url(${images[currentIndex]})` }}>
       {/* Language Selection Dropdown */}
       <div style={styles.languageDropdownContainer}>
         <button style={styles.languageButton} onClick={toggleLanguageDropdown}>
@@ -22,11 +39,11 @@ const Hero = () => {
         </button>
         {isLanguageOpen && (
           <ul style={styles.languageDropdown}>
-            <li style={styles.languageItem} onClick={() => handleLanguageChange('English')}>English</li>
-            <li style={styles.languageItem} onClick={() => handleLanguageChange('Spanish')}>Spanish</li>
-            <li style={styles.languageItem} onClick={() => handleLanguageChange('French')}>French</li>
-            <li style={styles.languageItem} onClick={() => handleLanguageChange('German')}>German</li>
-            <li style={styles.languageItem} onClick={() => handleLanguageChange('Chinese')}>Chinese</li>
+            {['English', 'Spanish', 'French', 'German', 'Chinese'].map((lang) => (
+              <li key={lang} style={styles.languageItem} onClick={() => handleLanguageChange(lang)}>
+                {lang}
+              </li>
+            ))}
           </ul>
         )}
       </div>
@@ -41,33 +58,34 @@ const Hero = () => {
   );
 };
 
-// Styles for the component
 const styles = {
   hero: {
-    backgroundImage: 'url(heroimage.jpg)', // Replace with your image URL
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '500px',
     display: 'flex',
-    alignItems: 'right',
-    justifyContent: 'right',
+    alignItems: 'left',
+    justifyContent: 'left',
     color: 'white',
-    textAlign: 'center',
-    position: 'relative', // Required for absolute positioning of the dropdown
+    textAlign: 'left',
+    position: 'relative',
+    transition: 'background-image 1s ease-in-out',
   },
   heroContent: {
     padding: '10rem',
     borderRadius: '10px',
-    textAlign: 'center',
+    textAlign: 'left',
     color: '#043873',
   },
   heroTitle: {
     fontSize: '2.5rem',
     margin: '0 0 1rem 0',
+    color: 'white',
   },
   heroText: {
     fontSize: '1.2rem',
     margin: '0 0 2rem 0',
+    color: 'white',
   },
   heroButton: {
     padding: '10px 20px',
@@ -79,10 +97,10 @@ const styles = {
     fontSize: '1rem',
   },
   languageDropdownContainer: {
-    position: 'fixed', // Fixed position to make it overflow across the site
+    position: 'fixed',
     bottom: '20px',
     left: '20px',
-    zIndex: 1000, // Ensure it stays on top of other elements
+    zIndex: 1000,
   },
   languageButton: {
     padding: '10px 20px',
@@ -100,7 +118,7 @@ const styles = {
   },
   languageDropdown: {
     position: 'absolute',
-    bottom: '40px', // Position above the button
+    bottom: '40px',
     left: '0',
     backgroundColor: '#fff',
     listStyle: 'none',
@@ -117,9 +135,6 @@ const styles = {
     fontSize: '1rem',
     whiteSpace: 'nowrap',
     transition: 'background-color 0.2s',
-  },
-  languageItemHover: {
-    backgroundColor: '#f0f0f0',
   },
 };
 

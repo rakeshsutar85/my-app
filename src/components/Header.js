@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -6,11 +7,6 @@ const Header = () => {
   const [isCapabilitiesOpen, setIsCapabilitiesOpen] = useState(false);
   const [isCompanyOpen, setIsCompanyOpen] = useState(false);
   const [isADASOpen, setIsADASOpen] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal visibility
-
-  const toggleModal = () => {
-    setIsModalOpen(!isModalOpen);
-  };
 
   return (
     <div>
@@ -114,70 +110,11 @@ const Header = () => {
 
             {/* Contact Us Button */}
             <li style={styles.navItem}>
-              <button style={styles.button} onClick={toggleModal}>Contact Us</button>
+              <Link to="/contact" style={styles.button}>Contact Us</Link>
             </li>
           </ul>
         </nav>
       </header>
-
-      {/* Modal */}
-      {isModalOpen && (
-        <div style={styles.modalOverlay}>
-          <div style={styles.modal}>
-            {/* Close button */}
-            <button style={styles.closeButton} onClick={toggleModal}>
-              &times;
-            </button>
-
-            {/* Modal Content */}
-            <div style={styles.modalContent}>
-              {/* Left Side: Contact Details */}
-              <div style={styles.contactDetails}>
-                <h2>Contact Details</h2>
-                <p>Email: example@example.com</p>
-                <p>Phone: +123 456 7890</p>
-                <p>Address: 123 Main St, City, Country</p>
-              </div>
-
-              {/* Right Side: Contact Form */}
-              <div style={styles.contactForm}>
-                <h2>Contact Us</h2>
-                <form>
-                  <div style={styles.formGroup}>
-                    <label htmlFor="name">Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      placeholder="Enter your name"
-                      style={styles.input}
-                    />
-                  </div>
-                  <div style={styles.formGroup}>
-                    <label htmlFor="email">Email</label>
-                    <input
-                      type="email"
-                      id="email"
-                      placeholder="Enter your email"
-                      style={styles.input}
-                    />
-                  </div>
-                  <div style={styles.formGroup}>
-                    <label htmlFor="message">Message</label>
-                    <textarea
-                      id="message"
-                      placeholder="Enter your message"
-                      style={styles.textarea}
-                    />
-                  </div>
-                  <button type="submit" style={styles.submitButton}>
-                    Submit
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
@@ -220,7 +157,7 @@ const styles = {
     top: '100%',
     left: '50%',
     transform: 'translateX(-50%)',
-    backgroundColor: '#87CEEB',
+    backgroundColor: '#634c53',
     listStyle: 'none',
     margin: '0',
     padding: '0.5rem 0',
@@ -240,76 +177,7 @@ const styles = {
     borderRadius: '5px',
     cursor: 'pointer',
     fontSize: '16px',
-  },
-  modalOverlay: {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    zIndex: 1000, // Ensure modal is above everything
-  },
-  modal: {
-    backgroundColor: '#fff',
-    borderRadius: '10px',
-    width: '800px',
-    maxWidth: '90%',
-    padding: '20px',
-    position: 'relative',
-  },
-  closeButton: {
-    position: 'absolute',
-    top: '10px',
-    right: '10px',
-    backgroundColor: 'transparent',
-    border: 'none',
-    fontSize: '24px',
-    cursor: 'pointer',
-  },
-  modalContent: {
-    display: 'flex',
-    gap: '20px',
-  },
-  contactDetails: {
-    flex: 1,
-    padding: '20px',
-    borderRight: '1px solid #ccc',
-  },
-  contactForm: {
-    flex: 1,
-    padding: '20px',
-  },
-  formGroup: {
-    marginBottom: '15px',
-  },
-  input: {
-    width: '100%',
-    padding: '10px',
-    borderRadius: '5px',
-    border: '1px solid #ccc',
-    fontSize: '16px',
-  },
-  textarea: {
-    width: '100%',
-    padding: '10px',
-    borderRadius: '5px',
-    border: '1px solid #ccc',
-    fontSize: '16px',
-    resize: 'vertical',
-    minHeight: '100px',
-  },
-  submitButton: {
-    padding: '10px 20px',
-    backgroundColor: '#007BFF',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    fontSize: '16px',
+    textDecoration: 'none',
   },
 };
 
