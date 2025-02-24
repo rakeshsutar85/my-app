@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const images = [
   'image1.jpg', // Replace with actual image URLs
@@ -11,7 +12,10 @@ const images = [
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState('English');
+  const { t, i18n } = useTranslation();
+
+  // Get the current language from i18next
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,8 +30,9 @@ const Hero = () => {
   };
 
   const handleLanguageChange = (language) => {
-    setSelectedLanguage(language);
-    setIsLanguageOpen(false);
+    i18n.changeLanguage(language); // Change the language using i18next
+    setSelectedLanguage(language); // Update the selected language
+    setIsLanguageOpen(false); // Close the dropdown
   };
 
   return (
@@ -35,13 +40,17 @@ const Hero = () => {
       {/* Language Selection Dropdown */}
       <div style={styles.languageDropdownContainer}>
         <button style={styles.languageButton} onClick={toggleLanguageDropdown}>
-          {selectedLanguage} <span style={styles.arrow}>▼</span>
+          {selectedLanguage.toUpperCase()} <span style={styles.arrow}>▼</span>
         </button>
         {isLanguageOpen && (
           <ul style={styles.languageDropdown}>
-            {['English', 'Spanish', 'French', 'German', 'Chinese'].map((lang) => (
-              <li key={lang} style={styles.languageItem} onClick={() => handleLanguageChange(lang)}>
-                {lang}
+            {['english', 'spanish', 'french', 'german', 'chinese'].map((lang) => (
+              <li
+                key={lang}
+                style={styles.languageItem}
+                onClick={() => handleLanguageChange(lang)}
+              >
+                {lang.toUpperCase()}
               </li>
             ))}
           </ul>
@@ -50,9 +59,9 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div style={styles.heroContent}>
-        <h1 style={styles.heroTitle}>Welcome to Our Platform</h1>
-        <p style={styles.heroText}>Your one-stop solution for all data-related services.</p>
-        <button style={styles.heroButton}>Get Started</button>
+        <h1 style={styles.heroTitle}>{t('hero.title')}</h1>
+        <p style={styles.heroText}>{t('hero.description')}</p>
+        <button style={styles.heroButton}>{t('hero.button')}</button>
       </div>
     </div>
   );
@@ -69,7 +78,6 @@ const styles = {
     color: 'white',
     textAlign: 'left',
     position: 'relative',
-    transition: 'background-image 1s ease-in-out',
   },
   heroContent: {
     padding: '10rem',

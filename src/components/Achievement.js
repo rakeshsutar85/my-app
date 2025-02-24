@@ -1,47 +1,61 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import the translation hook
 
 const Achievement = () => {
+    const { t } = useTranslation(); // Initialize the translation hook
+
     return (
         <div>
+            {/* Heading */}
             <div style={styles.heading}>
-                ACHIVEMENTS
-            </div>
-            <div>
-                Our KPIs Achieved So Far
-            </div>
-            <div style={styles.subheading}>
-                Across a wide range of projects spanning different data types, industries, and geographies
-                worldwide, we have made significant strides in delivering value across the AI value chain.
-                Our diverse experience enables us to tackle unique challenges and optimize solutions
-                tailored to various sectors.
+                {t('achievement.heading')} {/* Translated heading */}
             </div>
 
+            {/* Subheading */}
+            <div>
+                {t('achievement.subheading')} {/* Translated subheading */}
+            </div>
+
+            {/* Description */}
+            <div style={styles.subheading}>
+                {t('achievement.description')} {/* Translated description */}
+            </div>
+
+            {/* Achievement Items */}
             <div style={styles.achievementContainer}>
+                {/* Images Annotated */}
                 <div style={styles.achievementItem}>
                     <img src="/achivement/images annoatation.jpg" alt="Clients" style={styles.achievementImage} />
                     <h2 style={styles.achievementNumber}>5M+</h2>
-                    <p style={styles.achievementText}>Images annotated</p>
+                    <p style={styles.achievementText}>{t('achievement.imagesAnnotated')}</p> {/* Translated text */}
                 </div>
+
+                {/* Projects Done */}
                 <div style={styles.achievementItem}>
                     <img src="/achivement/projects done.png" alt="Projects" style={styles.achievementImage} />
                     <h2 style={styles.achievementNumber}>500+</h2>
-                    <p style={styles.achievementText}>Projects Done</p>
+                    <p style={styles.achievementText}>{t('achievement.projectsDone')}</p> {/* Translated text */}
                 </div>
+
+                {/* Language Experience */}
                 <div style={styles.achievementItem}>
                     <img src="/achivement/language exprience.png" alt="Customer Satisfaction" style={styles.achievementImage} />
                     <h2 style={styles.achievementNumber}>200+</h2>
-                    <p style={styles.achievementText}>Language Experience</p>
+                    <p style={styles.achievementText}>{t('achievement.languageExperience')}</p> {/* Translated text */}
                 </div>
+
+                {/* Conversational AI Data Sourced */}
                 <div style={styles.achievementItem}>
                     <img src="/achivement/ai data sourced.jpg" alt="Years of Experience" style={styles.achievementImage} />
                     <h2 style={styles.achievementNumber}>10+</h2>
-                    <p style={styles.achievementText}>Conversational Al data sourced</p>
+                    <p style={styles.achievementText}>{t('achievement.conversationalAIData')}</p> {/* Translated text */}
                 </div>
             </div>
         </div>
     );
 };
 
+// Styles for the component
 const styles = {
     heading: {
         backgroundColor: '#007BFF', // Blue background
@@ -57,6 +71,7 @@ const styles = {
     },
     subheading: {
         padding: '1rem 5rem', // Padding for spacing
+        textAlign: 'center', // Center the text
     },
     achievementContainer: {
         display: 'flex',
@@ -82,7 +97,6 @@ const styles = {
     achievementImage: {
         maxWidth: '100px',
         height: '100px',
-
     },
 };
 

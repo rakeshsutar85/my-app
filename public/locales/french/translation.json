@@ -1,0 +1,224 @@
+{
+    "home": {
+        "title": "Accueil",
+        "description": "Bienvenue sur la page d'accueil!"
+    },
+    "about": {
+        "title": "À propos",
+        "description": "Ceci est la page à propos."
+    },
+    "navbar": {
+        "home": "Accueil",
+        "about": "À propos"
+    },
+    "hero": {
+        "title": "Bienvenue sur notre plateforme",
+        "description": "Votre solution unique pour tous les services liés aux données.",
+        "button": "Commencer"
+    },
+    "header": {
+        "services": "Services",
+        "servicesDataAnnotation": "Annotation et amélioration des données",
+        "servicesLocalization": "Localisation - Transcription et traduction",
+        "servicesDataValidation": "Validation des données",
+        "servicesCustomData": "Approvisionnement de données personnalisées",
+        "servicesContentModeration": "Modération de contenu",
+        "solutions": "Solutions",
+        "solutionsNLP": "NLP",
+        "solutionsADAS": "ADAS",
+        "solutionsDocumentAI": "Document AI",
+        "solutionsVoiceSpeech": "IA pour la reconnaissance vocale",
+        "solutionsAIEducation": "IA dans l'éducation",
+        "solutionsGenerativeAI": "IA générative",
+        "solutionsConversationalAI": "IA conversationnelle",
+        "capabilities": "Capacités",
+        "capabilitiesCustomAI": "Développement de modèles d'IA personnalisés",
+        "capabilitiesAIModel": "Assurance des modèles d'IA",
+        "capabilitiesLLMOptimization": "Optimisation de l'IA et des LLM",
+        "capabilitiesLicensedData": "Solutions de données sous licence",
+        "adas": "ADAS",
+        "adasAITraining": "Données d'entraînement IA",
+        "adasAudioAnnotation": "Annotation audio",
+        "adasAudioTranscription": "Transcription audio",
+        "adasComputerVision": "Vision par ordinateur",
+        "adasDataCollection": "Collecte de données",
+        "adasNumberPlate": "Reconnaissance automatique des plaques d'immatriculation",
+        "adasConversationalAI": "IA conversationnelle",
+        "adasDataAnnotation": "Annotation de données",
+        "adasDataTranscription": "Transcription de données",
+        "company": "Entreprise",
+        "companyAbout": "À propos",
+        "companyContact": "Contact",
+        "companyCareer": "Carrière",
+        "companyJobs": "Emplois",
+        "contactUs": "Contactez-nous"
+    },
+    "achievement": {
+        "heading": "RÉALISATIONS",
+        "subheading": "Nos KPI atteints jusqu'à présent",
+        "description": "À travers une large gamme de projets couvrant différents types de données, industries et géographies à travers le monde, nous avons fait des progrès significatifs dans la fourniture de valeur tout au long de la chaîne de valeur de l'IA. Notre expérience diversifiée nous permet de relever des défis uniques et d'optimiser des solutions adaptées à divers secteurs.",
+        "imagesAnnotated": "Images annotées",
+        "imagesAnnotatedAlt": "Images annotées",
+        "projectsDone": "Projets réalisés",
+        "projectsDoneAlt": "Projets réalisés",
+        "languageExperience": "Expérience linguistique",
+        "languageExperienceAlt": "Expérience linguistique",
+        "conversationalAIData": "Données IA conversationnelles collectées",
+        "conversationalAIDataAlt": "Données IA conversationnelles collectées"
+    },
+    "calendar": {
+        "bookAppointment": "Réservez votre rendez-vous",
+        "selectedDate": "Date sélectionnée"
+    },
+    "contact": {
+        "contactDetails": "Coordonnées",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "address": "Adresse",
+        "contactUs": "Contactez-nous",
+        "firstNamePlaceholder": "Prénom",
+        "lastNamePlaceholder": "Nom de famille",
+        "emailPlaceholder": "E-mail professionnel",
+        "companyPlaceholder": "Société",
+        "messagePlaceholder": "Entrez votre message",
+        "submitButton": "Soumettre"
+    },
+    "favoriteApps": {
+        "heading": "TRAVAILLEZ AVEC NOS TECHNOLOGIES",
+        "description": "Nous sommes spécialisés dans l'intelligence artificielle (IA), l'apprentissage automatique (ML), le traitement du langage naturel (NLP), la vision par ordinateur, l'IA documentaire, l'IA conversationnelle, les technologies de santé et les systèmes d'aide à la conduite avancée (ADAS). Notre équipe est dédiée à repousser les limites de ce que la technologie peut accomplir, en créant des solutions qui rationalisent les opérations, améliorent les expériences utilisateur et stimulent la croissance des entreprises. Que vous cherchiez à améliorer l'efficacité, à augmenter la sécurité ou à débloquer de nouvelles perspectives, nous sommes là pour collaborer et vous aider à tirer parti des dernières avancées technologiques pour atteindre vos objectifs.",
+        "readMoreButton": "Lire la suite",
+        "audioAnnotationAlt": "Annotation audio",
+        "audioTranscriptionAlt": "Transcription audio",
+        "dataTranscriptionAlt": "Transcription de données",
+        "dataValidationAlt": "Validation des données",
+        "dataTranslationAlt": "Traduction et transcription de données",
+        "dataAnnotationAlt": "Annotation de données",
+        "customDataSourceAlt": "Source de données personnalisée"
+    },
+    "footer": {
+        "companyName": "Nom de l'entreprise",
+        "companyDescription": "Transformer les entreprises grâce à des solutions numériques innovantes.",
+        "services": {
+            "title": "Services",
+            "dataAnnotation": "Annotation et amélioration des données",
+            "localization": "Localisation - transcription et traduction",
+            "dataValidation": "Validation des données",
+            "customDataSourcing": "Approvisionnement de données personnalisées",
+            "contentModeration": "Modération de contenu"
+        },
+        "solutions": {
+            "title": "Solutions",
+            "nlp": "NLP",
+            "adas": "ADAS",
+            "documentAI": "Document AI",
+            "voiceSpeechRecognition": "IA pour la reconnaissance vocale",
+            "aiEducation": "IA dans l'éducation",
+            "generativeAI": "IA générative",
+            "conversationalAI": "IA conversationnelle"
+        },
+        "company": {
+            "title": "Entreprise",
+            "about": "À propos",
+            "contact": "Contact",
+            "career": "Carrière",
+            "jobs": "Emplois"
+        },
+        "copyright": "Tech Solutions. Tous droits réservés."
+    },
+    "nonbusiness": {
+        "nonBusinessEnquiries": "Demandes non professionnelles",
+        "freelanceOpportunities": "Opportunités de freelance",
+        "careerOpportunities": "Opportunités de carrière",
+        "vendorEnrollment": "Inscription des fournisseurs",
+        "clickMe": "Cliquez ici",
+        "buttonClicked": "Bouton cliqué !"
+    },
+    "quality": {
+        "heading": "LA QUALITÉ EST LA PLUS IMPORTANTE",
+        "subheading": "COMMENT SOMMES-NOUS LES MEILLEURS",
+        "companyImageAlt": "Logo de l'entreprise",
+        "companyName": "NOM DE L'ENTREPRISE",
+        "othersImageAlt": "Logo des autres",
+        "others": "AUTRES",
+        "dataSecurity": "Sécurité des données et conformité légale",
+        "comprehensiveAI": "Solutions complètes de données IA",
+        "worldwideSourcing": "Capacités d'approvisionnement mondiales",
+        "superiorQuality": "Qualité supérieure et délais rapides",
+        "respectedAuthority": "Une autorité respectée en IA"
+    },
+    "scaleandgrow": {
+        "heading": "NOUS VOUS AIDONS À VOUS DÉVELOPPER - COMMENT ?",
+        "audioAnnotation": "Annotation audio",
+        "audioAnnotationAlt": "Icône d'annotation audio",
+        "audioTranscription": "Transcription audio",
+        "audioTranscriptionAlt": "Icône de transcription audio",
+        "dataCollection": "Collecte de données",
+        "dataCollectionAlt": "Icône de collecte de données",
+        "dataTranscription": "Transcription de données",
+        "dataTranscriptionAlt": "Icône de transcription de données",
+        "sellFaster": "Vendez plus vite"
+    },
+    "testimonials": {
+        "heading": "CE QUE DISENT NOS CLIENTS",
+        "feedback1": "Ce produit a complètement transformé notre façon de faire des affaires. Hautement recommandé !",
+        "feedback2": "Un service et un support incroyables. L'équipe est toujours prête à aider et à dépasser les attentes.",
+        "feedback3": "La meilleure décision que nous ayons prise a été de choisir ce produit. Il a dépassé toutes nos attentes.",
+        "feedback4": "Des fonctionnalités incroyables et un excellent support client. Nous sommes très satisfaits des résultats.",
+        "feedback5": "Ce produit a été un changement de jeu pour notre entreprise. Hautement recommandé !",
+        "feedback6": "L'expérience utilisateur est fantastique, et l'équipe de support est toujours utile."
+    },
+    "usecases": {
+        "heading": "NOTRE EXPERTISE EN CAS D'UTILISATION",
+        "computerVision": {
+            "title": "Vision par ordinateur",
+            "description": "Dans notre organisation, nous nous concentrons sur la vision par ordinateur en tant que domaine d'expertise clé. En tirant parti d'algorithmes avancés et de modèles d'apprentissage automatique, nous permettons aux machines d'interpréter et d'analyser des données visuelles, aidant les entreprises à découvrir de nouvelles perspectives et à automatiser les processus."
+        },
+        "nlp": {
+            "title": "TAL",
+            "description": "Nos capacités en traitement du langage naturel ouvrent de nouvelles possibilités dans divers secteurs, y compris le service client, la santé, la finance, et plus encore, permettant aux organisations d'automatiser les processus, d'améliorer la communication et de fournir des interactions plus intuitives et personnalisées."
+        },
+        "documentAI": {
+            "title": "IA documentaire",
+            "description": "Nos solutions permettent aux entreprises de gérer et d'interpréter efficacement de vastes volumes de données non structurées, améliorant la précision, réduisant les efforts manuels et accélérant les processus de prise de décision. En tirant parti de l'IA documentaire, nous aidons les organisations à rationaliser les flux de travail, à améliorer la conformité et à débloquer des informations précieuses à partir de leurs documents."
+        },
+        "conversationalAI": {
+            "title": "IA conversationnelle",
+            "description": "Nos solutions d'IA conversationnelle aident les entreprises à fournir un support client personnalisé et efficace, à automatiser les tâches routinières et à améliorer la communication à travers divers points de contact."
+        },
+        "healthcare": {
+            "title": "Santé",
+            "description": "Nous nous concentrons sur des solutions de santé alimentées par des technologies avancées comme l'IA, l'apprentissage automatique et l'analyse de données pour améliorer les résultats des patients et rationaliser les processus médicaux."
+        },
+        "adas": {
+            "title": "ADAS",
+            "description": "Nos solutions aident à fournir une assistance en temps réel aux conducteurs grâce à des fonctionnalités telles que l'assistance au maintien de voie, le régulateur de vitesse adaptatif, le freinage d'urgence automatique et la détection de collision. En intégrant l'ADAS, nous visons à réduire les accidents, à améliorer la sécurité routière et à ouvrir la voie à des innovations en matière de conduite autonome dans l'industrie automobile."
+        }
+    },
+    "whatCompanyOffers": {
+        "heading": "CE QUE L'ENTREPRISE PROPOSE",
+        "dataValidation": {
+            "title": "Validation des données",
+            "description": "Évaluez le débit initial de votre modèle pour obtenir un avis d'expert impartial sur les indicateurs de performance clés, tels que la dérive, la duplication et les réponses de référence, dès les premières étapes."
+        },
+        "dataTranslation": {
+            "title": "Transcription et traduction de données",
+            "description": "Améliorez la translittération, la pertinence et l'acceptation par les utilisateurs grâce à notre expertise en localisation, garantissant que votre modèle s'adapte parfaitement aux exigences fonctionnelles, linguistiques et culturelles des marchés spécifiques."
+        },
+        "dataAnnotation": {
+            "title": "Annotation des données",
+            "description": "Obtenez un étiquetage précis des données avec une précision d'environ 95 % pour divers types de données, garantissant des performances optimales du modèle."
+        },
+        "customDataSourcing": {
+            "title": "Approvisionnement de données personnalisées",
+            "description": "Acquérez des données sur mesure et de haute précision pour les besoins spécifiques de votre modèle à partir de sources mondiales, en garantissant une conformité totale aux normes GDPR, SOC 2 et ISO."
+        },
+        "contentModeration": {
+            "title": "Modération de contenu",
+            "description": "Nos solutions de modération exploitent l'IA et l'expertise humaine pour détecter les contenus inappropriés, nuisibles ou non conformes tout en préservant l'intégrité de la plateforme et l'engagement des utilisateurs."
+        },
+        "customAIModelDevelopment": {
+            "title": "Développement de modèles d'IA personnalisés",
+            "description": "Notre équipe d'experts se spécialise dans la construction, la formation et l'optimisation de modèles d'IA pour diverses applications, garantissant une grande précision, efficacité et évolutivité."
+        }
+    }
+}

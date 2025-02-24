@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next'; // Import the translation hook
 
 const testimonials = [
   {
@@ -41,6 +42,7 @@ const testimonials = [
 
 const AutoScrollTestimonial = () => {
   const [startIndex, setStartIndex] = useState(0);
+  const { t } = useTranslation(); // Initialize the translation hook
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -58,14 +60,17 @@ const AutoScrollTestimonial = () => {
 
   return (
     <div>
+      {/* Heading */}
       <div>
-        <div style={styles.heading}>WHAT OUR Client Says</div>
+        <div style={styles.heading}>{t('testimonials.heading')}</div>
       </div>
+
+      {/* Testimonials */}
       <div style={styles.container}>
         <div style={styles.testimonialRow}>
           {visibleTestimonials.map((testimonial, index) => (
             <div key={index} style={styles.testimonial}>
-              <p style={styles.feedback}>{testimonial.feedback}</p>
+              <p style={styles.feedback}>{t(`testimonials.feedback${index + 1}`)}</p>
               <div style={styles.userInfo}>
                 <img src={testimonial.image} alt={testimonial.name} style={styles.userImage} />
                 <div style={styles.userDetails}>
@@ -84,17 +89,17 @@ const AutoScrollTestimonial = () => {
 // Styles for the AutoScrollTestimonial Component
 const styles = {
   heading: {
-    backgroundColor: '#007BFF', // Blue background
-    color: 'white', // White text
-    padding: '0.5rem 1rem', // Padding for spacing
-    borderRadius: '25px', // Rounded corners
-    textAlign: 'center', // Center the text
-    display: 'inline-block', // Fit content width
-    margin: '1rem auto', // Center the div horizontally
-    fontSize: '1.2rem', // Font size
-    fontWeight: 'bold', // Bold text
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow
-},
+    backgroundColor: '#007BFF',
+    color: 'white',
+    padding: '0.5rem 1rem',
+    borderRadius: '25px',
+    textAlign: 'center',
+    display: 'inline-block',
+    margin: '1rem auto',
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+  },
   container: {
     borderRadius: '10px',
     padding: '20px',
@@ -111,12 +116,11 @@ const styles = {
   },
   testimonial: {
     height: '260px',
-
     backgroundColor: '#fff',
     borderRadius: '10px',
     padding: '20px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    width: '30%', // Equal width for 3 testimonials
+    width: '30%',
     textAlign: 'center',
   },
   feedback: {

@@ -1,0 +1,224 @@
+{
+    "home": {
+      "title": "首页",
+      "description": "欢迎来到首页！"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "这是关于我们页面。"
+    },
+    "navbar": {
+      "home": "首页",
+      "about": "关于我们"
+    },
+    "hero": {
+      "title": "欢迎来到我们的平台",
+      "description": "为您提供一站式数据相关服务。",
+      "button": "开始"
+    },
+    "header": {
+      "services": "服务",
+      "servicesDataAnnotation": "数据标注与增强",
+      "servicesLocalization": "本地化 - 转录与翻译",
+      "servicesDataValidation": "数据验证",
+      "servicesCustomData": "自定义数据采集",
+      "servicesContentModeration": "内容审核",
+      "solutions": "解决方案",
+      "solutionsNLP": "自然语言处理（NLP）",
+      "solutionsADAS": "高级驾驶辅助系统（ADAS）",
+      "solutionsDocumentAI": "文档AI",
+      "solutionsVoiceSpeech": "语音识别AI",
+      "solutionsAIEducation": "教育AI",
+      "solutionsGenerativeAI": "生成式AI",
+      "solutionsConversationalAI": "对话式AI",
+      "capabilities": "能力",
+      "capabilitiesCustomAI": "定制AI模型开发",
+      "capabilitiesAIModel": "AI模型保障",
+      "capabilitiesLLMOptimization": "增强AI与LLM优化",
+      "capabilitiesLicensedData": "授权数据解决方案",
+      "adas": "ADAS",
+      "adasAITraining": "AI训练数据",
+      "adasAudioAnnotation": "音频标注",
+      "adasAudioTranscription": "音频转录",
+      "adasComputerVision": "计算机视觉",
+      "adasDataCollection": "数据采集",
+      "adasNumberPlate": "自动车牌识别",
+      "adasConversationalAI": "对话式AI",
+      "adasDataAnnotation": "数据标注",
+      "adasDataTranscription": "数据转录",
+      "company": "公司",
+      "companyAbout": "关于我们",
+      "companyContact": "联系我们",
+      "companyCareer": "职业",
+      "companyJobs": "职位",
+      "contactUs": "联系我们"
+    },
+    "achievement": {
+      "heading": "成就",
+      "subheading": "我们迄今为止实现的KPI",
+      "description": "我们在全球范围内跨越不同数据类型、行业和地理区域的项目中取得了显著进展，为AI价值链提供了重要价值。我们多样化的经验使我们能够应对独特的挑战，并为各个行业优化解决方案。",
+      "imagesAnnotated": "标注的图像",
+      "imagesAnnotatedAlt": "标注的图像",
+      "projectsDone": "完成的项目",
+      "projectsDoneAlt": "完成的项目",
+      "languageExperience": "语言经验",
+      "languageExperienceAlt": "语言经验",
+      "conversationalAIData": "对话式AI数据采集",
+      "conversationalAIDataAlt": "对话式AI数据采集"
+    },
+    "calendar": {
+      "bookAppointment": "预约",
+      "selectedDate": "选择日期"
+    },
+    "contact": {
+      "contactDetails": "联系方式",
+      "email": "电子邮件",
+      "phone": "电话",
+      "address": "地址",
+      "contactUs": "联系我们",
+      "firstNamePlaceholder": "名字",
+      "lastNamePlaceholder": "姓氏",
+      "emailPlaceholder": "企业邮箱",
+      "companyPlaceholder": "公司",
+      "messagePlaceholder": "输入您的消息",
+      "submitButton": "提交"
+    },
+    "favoriteApps": {
+      "heading": "与我们的技术合作",
+      "description": "我们专注于人工智能（AI）、机器学习（ML）、自然语言处理（NLP）、计算机视觉、文档AI、对话式AI、医疗技术和高级驾驶辅助系统（ADAS）。我们的团队致力于突破技术的界限，创建能够简化操作、增强用户体验并推动业务增长的解决方案。无论您是想提高效率、增加安全性还是解锁新的洞察力，我们都愿意与您合作，帮助您利用最新的技术进步实现目标。",
+      "readMoreButton": "了解更多",
+      "audioAnnotationAlt": "音频标注",
+      "audioTranscriptionAlt": "音频转录",
+      "dataTranscriptionAlt": "数据转录",
+      "dataValidationAlt": "数据验证",
+      "dataTranslationAlt": "数据翻译与转录",
+      "dataAnnotationAlt": "数据标注",
+      "customDataSourceAlt": "自定义数据源"
+    },
+    "footer": {
+      "companyName": "公司名称",
+      "companyDescription": "通过创新的数字解决方案改变业务。",
+      "services": {
+        "title": "服务",
+        "dataAnnotation": "数据标注与增强",
+        "localization": "本地化 - 转录与翻译",
+        "dataValidation": "数据验证",
+        "customDataSourcing": "自定义数据采集",
+        "contentModeration": "内容审核"
+      },
+      "solutions": {
+        "title": "解决方案",
+        "nlp": "自然语言处理（NLP）",
+        "adas": "高级驾驶辅助系统（ADAS）",
+        "documentAI": "文档AI",
+        "voiceSpeechRecognition": "语音识别AI",
+        "aiEducation": "教育AI",
+        "generativeAI": "生成式AI",
+        "conversationalAI": "对话式AI"
+      },
+      "company": {
+        "title": "公司",
+        "about": "关于我们",
+        "contact": "联系我们",
+        "career": "职业",
+        "jobs": "职位"
+      },
+      "copyright": "科技解决方案。保留所有权利。"
+    },
+    "nonbusiness": {
+      "nonBusinessEnquiries": "非业务咨询",
+      "freelanceOpportunities": "自由职业机会",
+      "careerOpportunities": "职业机会",
+      "vendorEnrollment": "供应商注册",
+      "clickMe": "点击我",
+      "buttonClicked": "按钮已点击！"
+    },
+    "quality": {
+      "heading": "质量是最重要的",
+      "subheading": "我们为何最佳",
+      "companyImageAlt": "公司标志",
+      "companyName": "公司名称",
+      "othersImageAlt": "其他标志",
+      "others": "其他",
+      "dataSecurity": "数据安全与法律合规",
+      "comprehensiveAI": "全面的AI数据解决方案",
+      "worldwideSourcing": "全球采购能力",
+      "superiorQuality": "卓越的质量与快速交付",
+      "respectedAuthority": "AI领域的权威"
+    },
+    "scaleandgrow": {
+      "heading": "我们帮助您扩展与成长 - 如何实现？",
+      "audioAnnotation": "音频标注",
+      "audioAnnotationAlt": "音频标注图标",
+      "audioTranscription": "音频转录",
+      "audioTranscriptionAlt": "音频转录图标",
+      "dataCollection": "数据采集",
+      "dataCollectionAlt": "数据采集图标",
+      "dataTranscription": "数据转录",
+      "dataTranscriptionAlt": "数据转录图标",
+      "sellFaster": "更快销售"
+    },
+    "testimonials": {
+      "heading": "客户评价",
+      "feedback1": "这个产品彻底改变了我们的业务方式。强烈推荐！",
+      "feedback2": "出色的服务和支持。团队总是乐于帮助并超出期望。",
+      "feedback3": "选择这个产品是我们做出的最佳决定。它超出了我们所有的期望。",
+      "feedback4": "令人难以置信的功能和出色的客户支持。我们对结果非常满意。",
+      "feedback5": "这个产品是我们公司的游戏规则改变者。强烈推荐！",
+      "feedback6": "用户体验非常棒，支持团队总是乐于帮助。"
+    },
+    "usecases": {
+      "heading": "我们的用例专长",
+      "computerVision": {
+        "title": "计算机视觉",
+        "description": "在我们的组织中，计算机视觉是我们的核心专长之一。通过利用先进的算法和机器学习模型，我们使机器能够解释和分析视觉数据，帮助企业解锁新的洞察并自动化流程。"
+      },
+      "nlp": {
+        "title": "自然语言处理（NLP）",
+        "description": "我们的NLP能力为各个行业（包括客户服务、医疗保健、金融等）开辟了新的可能性，使组织能够自动化流程、改善沟通并提供更直观、个性化的互动。"
+      },
+      "documentAI": {
+        "title": "文档AI",
+        "description": "我们的解决方案使企业能够高效管理和解释大量非结构化数据，提高准确性，减少人工工作量，并加速决策过程。通过利用文档AI，我们帮助组织简化工作流程，增强合规性，并从文档中解锁有价值的洞察。"
+      },
+      "conversationalAI": {
+        "title": "对话式AI",
+        "description": "我们的对话式AI解决方案帮助企业提供个性化、高效的客户支持，自动化日常任务，并改善各个触点的沟通。"
+      },
+      "healthcare": {
+        "title": "医疗保健",
+        "description": "我们专注于通过AI、机器学习和数据分析等先进技术提供医疗保健解决方案，以改善患者结果并简化医疗流程。"
+      },
+      "adas": {
+        "title": "高级驾驶辅助系统（ADAS）",
+        "description": "我们的解决方案通过车道保持辅助、自适应巡航控制、自动紧急制动和碰撞检测等功能为驾驶员提供实时帮助。通过集成ADAS，我们旨在减少事故、提高道路安全，并为自动驾驶创新铺平道路。"
+      }
+    },
+    "whatCompanyOffers": {
+      "heading": "公司提供的服务",
+      "dataValidation": {
+        "title": "数据验证",
+        "description": "评估模型的初始吞吐量，以在早期阶段获得关于关键性能指标（如漂移、重复和真实响应）的公正专家意见。"
+      },
+      "dataTranslation": {
+        "title": "数据转录与翻译",
+        "description": "通过我们的本地化专业知识增强音译、相关性和用户接受度，确保您的模型无缝适应特定市场的功能、语言和文化需求。"
+      },
+      "dataAnnotation": {
+        "title": "数据标注",
+        "description": "在各种数据类型上实现约95%的准确数据标注，确保模型的最佳性能。"
+      },
+      "customDataSourcing": {
+        "title": "自定义数据采集",
+        "description": "从全球来源获取高精度、量身定制的数据，确保完全符合GDPR、SOC 2和ISO标准。"
+      },
+      "contentModeration": {
+        "title": "内容审核",
+        "description": "我们的审核解决方案利用AI和人类专业知识检测不适当、有害或不合规的内容，同时保持平台完整性和用户参与度。"
+      },
+      "customAIModelDevelopment": {
+        "title": "定制AI模型开发",
+        "description": "我们的专家团队专注于为各种应用构建、训练和优化AI模型，确保高精度、高效性和可扩展性。"
+      }
+    }
+  }

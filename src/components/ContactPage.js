@@ -1,101 +1,86 @@
-import { button } from 'framer-motion/client';
 import React from 'react';
-
+import { useTranslation } from 'react-i18next'; // Import the translation hook
 
 const ContactPage = () => {
+  const { t } = useTranslation(); // Initialize the translation hook
+
   return (
     <div style={styles.contactPage}>
       <div style={styles.contactContent}>
         {/* Left Side: Contact Details */}
         <div style={styles.contactDetails}>
-          <h2>Contact Details</h2>
-          <p>Email: example@example.com</p>
-          <p>Phone: +123 456 7890</p>
-          <p>Address: 123 Main St, City, Country</p>
+          <h2>{t('contact.contactDetails')}</h2> {/* Translated heading */}
+          <p>{t('contact.email')}: example@example.com</p> {/* Translated label */}
+          <p>{t('contact.phone')}: +123 456 7890</p> {/* Translated label */}
+          <p>{t('contact.address')}: 123 Main St, City, Country</p> {/* Translated label */}
         </div>
 
         {/* Right Side: Contact Form */}
         <div style={styles.contactForm}>
-          <h2>Contact Us</h2>
+          <h2>{t('contact.contactUs')}</h2> {/* Translated heading */}
           <form>
+            {/* First Name */}
             <div style={styles.formGroup}>
               <input
                 type="text"
                 id="firstname"
-                placeholder="First Name"
+                placeholder={t('contact.firstNamePlaceholder')} // Translated placeholder
                 style={styles.input}
               />
             </div>
+
+            {/* Last Name */}
             <div style={styles.formGroup}>
               <input
                 type="text"
                 id="lastname"
-                placeholder="Last Name"
+                placeholder={t('contact.lastNamePlaceholder')} // Translated placeholder
                 style={styles.input}
               />
             </div>
+
+            {/* Business Email */}
             <div style={styles.formGroup}>
               <input
                 type="email"
                 id="email"
-                placeholder="Business email"
+                placeholder={t('contact.emailPlaceholder')} // Translated placeholder
                 style={styles.input}
               />
             </div>
+
+            {/* Company */}
             <div style={styles.formGroup}>
               <input
                 type="text"
                 id="company"
-                placeholder="Company"
+                placeholder={t('contact.companyPlaceholder')} // Translated placeholder
                 style={styles.input}
               />
             </div>
+
+            {/* Message */}
             <div style={styles.formGroup}>
               <textarea
                 id="message"
-                placeholder="Enter your message"
+                placeholder={t('contact.messagePlaceholder')} // Translated placeholder
                 style={styles.textarea}
               />
             </div>
+
+            {/* Submit Button */}
             <button type="submit" style={styles.submitButton}>
-              Submit
+              {t('contact.submitButton')} {/* Translated button text */}
             </button>
           </form>
         </div>
-      </div>
-      <div>
-        <h2>Non Business Enquiries</h2>
-        <div style={{ textAlign: 'center', justifyContent: 'center', display: 'flex', gap: '100px', alignItems: 'center' }}>
-          <h3>Freelance Opportunities</h3>
-          <button style={styles.button} onClick={() => alert("Button Clicked!")}>Click Me</button>
-        </div>
-
-        <div style={{ textAlign: 'center', justifyContent: 'center', display: 'flex', gap: '120px', alignItems: 'center' }}>
-          <h3>Career Opportunities</h3>
-          <button style={styles.button} onClick={() => alert("Button Clicked!")}>Click Me</button>
-        </div>
-
-        <div style={{ textAlign: 'center', justifyContent: 'center', display: 'flex', gap: '130px', alignItems: 'center' }}>
-          <h3>Vendor Enrollment</h3>
-          <button style={styles.button} onClick={() => (window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdMSARvIjnfPxTXl-uJK6DNe9SqUmtI-R-5SmzZ9GszcgVq7Q/viewform')}>Click Me</button>
-        </div>
-
-
       </div>
     </div>
   );
 };
 
+// Styles for the component
 const styles = {
-  button: {
-    padding: '10px 20px',
-    backgroundColor: '#007BFF',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    fontSize: '16px',
-    cursor: 'pointer',
-  },
   contactPage: {
     padding: '2rem',
     maxWidth: '1200px',

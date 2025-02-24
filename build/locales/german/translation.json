@@ -1,0 +1,224 @@
+{
+    "home": {
+      "title": "Startseite",
+      "description": "Willkommen auf der Startseite!"
+    },
+    "about": {
+      "title": "Über uns",
+      "description": "Dies ist die Über-uns-Seite."
+    },
+    "navbar": {
+      "home": "Startseite",
+      "about": "Über uns"
+    },
+    "hero": {
+      "title": "Willkommen auf unserer Plattform",
+      "description": "Ihre All-in-One-Lösung für alle datenbezogenen Dienstleistungen.",
+      "button": "Loslegen"
+    },
+    "header": {
+      "services": "Dienstleistungen",
+      "servicesDataAnnotation": "Datenannotation und -verbesserung",
+      "servicesLocalization": "Lokalisierung - Transkription und Übersetzung",
+      "servicesDataValidation": "Datenvalidierung",
+      "servicesCustomData": "Individuelle Datenerfassung",
+      "servicesContentModeration": "Content-Moderation",
+      "solutions": "Lösungen",
+      "solutionsNLP": "NLP",
+      "solutionsADAS": "ADAS",
+      "solutionsDocumentAI": "Dokumenten-KI",
+      "solutionsVoiceSpeech": "KI für Sprach- und Spracherkennung",
+      "solutionsAIEducation": "KI in der Bildung",
+      "solutionsGenerativeAI": "Generative KI",
+      "solutionsConversationalAI": "Konversations-KI",
+      "capabilities": "Fähigkeiten",
+      "capabilitiesCustomAI": "Individuelle KI-Modellentwicklung",
+      "capabilitiesAIModel": "KI-Modellabsicherung",
+      "capabilitiesLLMOptimization": "Optimierte KI & LLM-Optimierung",
+      "capabilitiesLicensedData": "Lizenzierte Datenlösungen",
+      "adas": "ADAS",
+      "adasAITraining": "KI-Trainingsdaten",
+      "adasAudioAnnotation": "Audio-Annotation",
+      "adasAudioTranscription": "Audio-Transkription",
+      "adasComputerVision": "Computer Vision",
+      "adasDataCollection": "Datenerfassung",
+      "adasNumberPlate": "Automatische Nummernschilderkennung",
+      "adasConversationalAI": "Konversations-KI",
+      "adasDataAnnotation": "Datenannotation",
+      "adasDataTranscription": "Daten-Transkription",
+      "company": "Unternehmen",
+      "companyAbout": "Über uns",
+      "companyContact": "Kontakt",
+      "companyCareer": "Karriere",
+      "companyJobs": "Jobs",
+      "contactUs": "Kontaktieren Sie uns"
+    },
+    "achievement": {
+      "heading": "ERFOLGE",
+      "subheading": "Unsere bisher erreichten KPIs",
+      "description": "Über eine Vielzahl von Projekten, die verschiedene Datentypen, Branchen und Regionen weltweit umfassen, haben wir bedeutende Fortschritte bei der Wertschöpfung in der KI-Wertschöpfungskette erzielt. Unsere vielfältige Erfahrung ermöglicht es uns, einzigartige Herausforderungen zu bewältigen und maßgeschneiderte Lösungen für verschiedene Sektoren zu optimieren.",
+      "imagesAnnotated": "Bilder annotiert",
+      "imagesAnnotatedAlt": "Bilder annotiert",
+      "projectsDone": "Projekte abgeschlossen",
+      "projectsDoneAlt": "Projekte abgeschlossen",
+      "languageExperience": "Spracherfahrung",
+      "languageExperienceAlt": "Spracherfahrung",
+      "conversationalAIData": "Konversations-KI-Daten beschafft",
+      "conversationalAIDataAlt": "Konversations-KI-Daten beschafft"
+    },
+    "calendar": {
+      "bookAppointment": "Termin buchen",
+      "selectedDate": "Ausgewähltes Datum"
+    },
+    "contact": {
+      "contactDetails": "Kontaktdetails",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "contactUs": "Kontaktieren Sie uns",
+      "firstNamePlaceholder": "Vorname",
+      "lastNamePlaceholder": "Nachname",
+      "emailPlaceholder": "Geschäfts-E-Mail",
+      "companyPlaceholder": "Unternehmen",
+      "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
+      "submitButton": "Absenden"
+    },
+    "favoriteApps": {
+      "heading": "ARBEITEN SIE MIT UNSEREN TECHNOLOGIEN",
+      "description": "Wir spezialisieren uns auf Künstliche Intelligenz (KI), Maschinelles Lernen (ML), Natural Language Processing (NLP), Computer Vision, Dokumenten-KI, Konversations-KI, Gesundheitstechnologien und ADAS (Advanced Driver-Assistance Systems). Unser Team ist bestrebt, die Grenzen des technologisch Machbaren zu erweitern und Lösungen zu schaffen, die Prozesse optimieren, Benutzererfahrungen verbessern und das Geschäftswachstum fördern. Egal, ob Sie die Effizienz steigern, die Sicherheit erhöhen oder neue Erkenntnisse gewinnen möchten – wir sind hier, um zusammenzuarbeiten und Ihnen zu helfen, die neuesten technologischen Fortschritte zu nutzen, um Ihre Ziele zu erreichen.",
+      "readMoreButton": "Mehr lesen",
+      "audioAnnotationAlt": "Audio-Annotation",
+      "audioTranscriptionAlt": "Audio-Transkription",
+      "dataTranscriptionAlt": "Daten-Transkription",
+      "dataValidationAlt": "Datenvalidierung",
+      "dataTranslationAlt": "Datenübersetzung und -transkription",
+      "dataAnnotationAlt": "Datenannotation",
+      "customDataSourceAlt": "Individuelle Datenquelle"
+    },
+    "footer": {
+      "companyName": "Unternehmensname",
+      "companyDescription": "Transformation von Unternehmen durch innovative digitale Lösungen.",
+      "services": {
+        "title": "Dienstleistungen",
+        "dataAnnotation": "Datenannotation und -verbesserung",
+        "localization": "Lokalisierung - Transkription und Übersetzung",
+        "dataValidation": "Datenvalidierung",
+        "customDataSourcing": "Individuelle Datenerfassung",
+        "contentModeration": "Content-Moderation"
+      },
+      "solutions": {
+        "title": "Lösungen",
+        "nlp": "NLP",
+        "adas": "ADAS",
+        "documentAI": "Dokumenten-KI",
+        "voiceSpeechRecognition": "KI für Sprach- und Spracherkennung",
+        "aiEducation": "KI in der Bildung",
+        "generativeAI": "Generative KI",
+        "conversationalAI": "Konversations-KI"
+      },
+      "company": {
+        "title": "Unternehmen",
+        "about": "Über uns",
+        "contact": "Kontakt",
+        "career": "Karriere",
+        "jobs": "Jobs"
+      },
+      "copyright": "Tech Solutions. Alle Rechte vorbehalten."
+    },
+    "nonbusiness": {
+      "nonBusinessEnquiries": "Nicht geschäftliche Anfragen",
+      "freelanceOpportunities": "Freelance-Möglichkeiten",
+      "careerOpportunities": "Karrieremöglichkeiten",
+      "vendorEnrollment": "Anbieteranmeldung",
+      "clickMe": "Klicken Sie mich",
+      "buttonClicked": "Button geklickt!"
+    },
+    "quality": {
+      "heading": "QUALITÄT IST AM WICHTIGSTEN",
+      "subheading": "WARUM WIR DIE BESTEN SIND",
+      "companyImageAlt": "Firmenlogo",
+      "companyName": "FIRMENNAME",
+      "othersImageAlt": "Andere Logos",
+      "others": "ANDERE",
+      "dataSecurity": "Datensicherheit und rechtliche Compliance",
+      "comprehensiveAI": "Umfassende KI-Datenlösungen",
+      "worldwideSourcing": "Weltweite Beschaffungsfähigkeiten",
+      "superiorQuality": "Höchste Qualität & Schnelle TA",
+      "respectedAuthority": "Eine angesehene Autorität in der KI"
+    },
+    "scaleandgrow": {
+      "heading": "WIR HELFEN IHNEN, ZU SKALIEREN UND ZU WACHSEN - WIE?",
+      "audioAnnotation": "Audio-Annotation",
+      "audioAnnotationAlt": "Audio-Annotation-Symbol",
+      "audioTranscription": "Audio-Transkription",
+      "audioTranscriptionAlt": "Audio-Transkription-Symbol",
+      "dataCollection": "Datenerfassung",
+      "dataCollectionAlt": "Datenerfassungssymbol",
+      "dataTranscription": "Daten-Transkription",
+      "dataTranscriptionAlt": "Daten-Transkription-Symbol",
+      "sellFaster": "Schneller verkaufen"
+    },
+    "testimonials": {
+      "heading": "WAS UNSERE KUNDEN SAGEN",
+      "feedback1": "Dieses Produkt hat die Art und Weise, wie wir Geschäfte machen, völlig verändert. Sehr empfehlenswert!",
+      "feedback2": "Erstaunlicher Service und Support. Das Team ist immer bereit zu helfen und übertrifft die Erwartungen.",
+      "feedback3": "Die beste Entscheidung, die wir getroffen haben, war die Wahl dieses Produkts. Es hat alle unsere Erwartungen übertroffen.",
+      "feedback4": "Unglaubliche Funktionen und ausgezeichneter Kundensupport. Wir sind sehr zufrieden mit den Ergebnissen.",
+      "feedback5": "Dieses Produkt war ein Wendepunkt für unser Unternehmen. Sehr empfehlenswert!",
+      "feedback6": "Das Benutzererlebnis ist fantastisch, und das Support-Team ist immer hilfsbereit."
+    },
+    "usecases": {
+      "heading": "UNSERE EXPERTISE IN ANWENDUNGSFÄLLEN",
+      "computerVision": {
+        "title": "Computer Vision",
+        "description": "In unserem Unternehmen konzentrieren wir uns auf Computer Vision als Kernkompetenz. Durch den Einsatz fortschrittlicher Algorithmen und maschineller Lernmodelle ermöglichen wir Maschinen, visuelle Daten zu interpretieren und zu analysieren, um Unternehmen neue Erkenntnisse zu liefern und Prozesse zu automatisieren."
+      },
+      "nlp": {
+        "title": "NLP",
+        "description": "Unsere NLP-Fähigkeiten eröffnen neue Möglichkeiten in verschiedenen Branchen, einschließlich Kundenservice, Gesundheitswesen, Finanzen und mehr, und ermöglichen es Unternehmen, Prozesse zu automatisieren, die Kommunikation zu verbessern und intuitivere, personalisierte Interaktionen zu bieten."
+      },
+      "documentAI": {
+        "title": "Dokumenten-KI",
+        "description": "Unsere Lösungen ermöglichen es Unternehmen, große Mengen unstrukturierter Daten effizient zu verwalten und zu interpretieren, die Genauigkeit zu verbessern, den manuellen Aufwand zu reduzieren und Entscheidungsprozesse zu beschleunigen. Durch den Einsatz von Dokumenten-KI helfen wir Unternehmen, Arbeitsabläufe zu optimieren, die Compliance zu verbessern und wertvolle Erkenntnisse aus ihren Dokumenten zu gewinnen."
+      },
+      "conversationalAI": {
+        "title": "Konversations-KI",
+        "description": "Unsere Konversations-KI-Lösungen helfen Unternehmen, personalisierten, effizienten Kundensupport zu bieten, Routineaufgaben zu automatisieren und die Kommunikation über verschiedene Touchpoints zu verbessern."
+      },
+      "healthcare": {
+        "title": "Gesundheitswesen",
+        "description": "Wir konzentrieren uns auf Gesundheitslösungen, die durch fortschrittliche Technologien wie KI, maschinelles Lernen und Datenanalyse unterstützt werden, um Patientenergebnisse zu verbessern und medizinische Prozesse zu optimieren."
+      },
+      "adas": {
+        "title": "ADAS",
+        "description": "Unsere Lösungen bieten Echtzeit-Unterstützung für Fahrer durch Funktionen wie Spurhalteassistent, adaptiver Tempomat, automatische Notbremsung und Kollisionserkennung. Durch die Integration von ADAS streben wir an, Unfälle zu reduzieren, die Verkehrssicherheit zu verbessern und den Weg für autonome Fahrinnovationen in der Automobilindustrie zu ebnen."
+      }
+    },
+    "whatCompanyOffers": {
+      "heading": "WAS DAS UNTERNEHMEN BIETET",
+      "dataValidation": {
+        "title": "Datenvalidierung",
+        "description": "Bewerten Sie den anfänglichen Durchsatz Ihres Modells, um eine unvoreingenommene Expertenmeinung zu Schlüsselperformanceindikatoren wie Drift, Duplizierung und Ground-Truth-Antworten in den frühen Phasen zu erhalten."
+      },
+      "dataTranslation": {
+        "title": "Daten-Transkription und -Übersetzung",
+        "description": "Verbessern Sie Transliteration, Relevanz und Benutzerakzeptanz mit unserer Lokalisierungsexpertise, um sicherzustellen, dass Ihr Modell nahtlos an die funktionalen, sprachlichen und kulturellen Anforderungen spezifischer Märkte angepasst wird."
+      },
+      "dataAnnotation": {
+        "title": "Datenannotation",
+        "description": "Erzielen Sie eine präzise Datenbeschriftung mit ~95 % Genauigkeit über verschiedene Datentypen hinweg, um eine optimale Modellleistung sicherzustellen."
+      },
+      "customDataSourcing": {
+        "title": "Individuelle Datenerfassung",
+        "description": "Beschaffen Sie hochpräzise, maßgeschneiderte Daten für Ihre spezifischen Modellanforderungen aus globalen Quellen, unter voller Einhaltung von GDPR, SOC 2 und ISO-Standards."
+      },
+      "contentModeration": {
+        "title": "Content-Moderation",
+        "description": "Unsere Moderationslösungen nutzen KI und menschliche Expertise, um unangemessene, schädliche oder nicht konforme Inhalte zu erkennen und gleichzeitig die Plattformintegrität und Benutzerbindung zu gewährleisten."
+      },
+      "customAIModelDevelopment": {
+        "title": "Individuelle KI-Modellentwicklung",
+        "description": "Unser Expertenteam spezialisiert sich auf den Aufbau, das Training und die Optimierung von KI-Modellen für verschiedene Anwendungen, um hohe Genauigkeit, Effizienz und Skalierbarkeit sicherzustellen."
+      }
+    }
+  }

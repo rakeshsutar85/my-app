@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -7,6 +8,8 @@ const Header = () => {
   const [isCapabilitiesOpen, setIsCapabilitiesOpen] = useState(false);
   const [isCompanyOpen, setIsCompanyOpen] = useState(false);
   const [isADASOpen, setIsADASOpen] = useState(false);
+
+  const { t } = useTranslation(); // Hook for translation
 
   return (
     <div>
@@ -20,14 +23,14 @@ const Header = () => {
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
-              <a href="/about" style={styles.navLink}>Services</a>
+              <a href="/about" style={styles.navLink}>{t('header.services')}</a>
               {isServicesOpen && (
                 <ul style={styles.dropdownMenu}>
-                  <li style={styles.dropdownItem}><a href="/about/team" style={styles.navLink}>Data annotation and enhancement</a></li>
-                  <li style={styles.dropdownItem}><a href="/about/mission" style={styles.navLink}>Localization - transcription and translation</a></li>
-                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>Data Validation</a></li>
-                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>Custom data sourcing</a></li>
-                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>Content moderation</a></li>
+                  <li style={styles.dropdownItem}><a href="/about/team" style={styles.navLink}>{t('header.servicesDataAnnotation')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/about/mission" style={styles.navLink}>{t('header.servicesLocalization')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>{t('header.servicesDataValidation')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>{t('header.servicesCustomData')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/about/history" style={styles.navLink}>{t('header.servicesContentModeration')}</a></li>
                 </ul>
               )}
             </li>
@@ -38,16 +41,16 @@ const Header = () => {
               onMouseEnter={() => setIsSolutionsOpen(true)}
               onMouseLeave={() => setIsSolutionsOpen(false)}
             >
-              <a href="/solutions" style={styles.navLink}>Solutions</a>
+              <a href="/solutions" style={styles.navLink}>{t('header.solutions')}</a>
               {isSolutionsOpen && (
                 <ul style={styles.dropdownMenu}>
-                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>NLP</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>ADAS</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>Document AI</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>AI for Voice & Speech Recognition</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>AI in Education</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Generative AI</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Conversational AI</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>{t('header.solutionsNLP')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>{t('header.solutionsADAS')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>{t('header.solutionsDocumentAI')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.solutionsVoiceSpeech')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.solutionsAIEducation')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.solutionsGenerativeAI')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.solutionsConversationalAI')}</a></li>
                 </ul>
               )}
             </li>
@@ -58,13 +61,13 @@ const Header = () => {
               onMouseEnter={() => setIsCapabilitiesOpen(true)}
               onMouseLeave={() => setIsCapabilitiesOpen(false)}
             >
-              <a href="/solutions" style={styles.navLink}>Capabilities</a>
+              <a href="/solutions" style={styles.navLink}>{t('header.capabilities')}</a>
               {isCapabilitiesOpen && (
                 <ul style={styles.dropdownMenu}>
-                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>Custom AI Model Development</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>AI Model Assurance</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>Enhanced AI & LLM Optimization</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Licensed Data Solutions</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>{t('header.capabilitiesCustomAI')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>{t('header.capabilitiesAIModel')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>{t('header.capabilitiesLLMOptimization')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.capabilitiesLicensedData')}</a></li>
                 </ul>
               )}
             </li>
@@ -75,18 +78,18 @@ const Header = () => {
               onMouseEnter={() => setIsADASOpen(true)}
               onMouseLeave={() => setIsADASOpen(false)}
             >
-              <a href="/solutions" style={styles.navLink}>ADAS</a>
+              <a href="/solutions" style={styles.navLink}>{t('header.adas')}</a>
               {isADASOpen && (
                 <ul style={styles.dropdownMenu}>
-                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>AI Training Data</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>Audio Annotation</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>Audio Transcription</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Computer Vision</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Data Collection</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Automatic Number Plate Recognition</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Conversational AI</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Data Annotation</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Data Transcription</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>{t('header.adasAITraining')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>{t('header.adasAudioAnnotation')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>{t('header.adasAudioTranscription')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasComputerVision')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasDataCollection')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasNumberPlate')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasConversationalAI')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasDataAnnotation')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.adasDataTranscription')}</a></li>
                 </ul>
               )}
             </li>
@@ -97,20 +100,20 @@ const Header = () => {
               onMouseEnter={() => setIsCompanyOpen(true)}
               onMouseLeave={() => setIsCompanyOpen(false)}
             >
-              <a href="/solutions" style={styles.navLink}>Company</a>
+              <a href="/solutions" style={styles.navLink}>{t('header.company')}</a>
               {isCompanyOpen && (
                 <ul style={styles.dropdownMenu}>
-                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>About</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>Contact</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>Career</a></li>
-                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>Jobs</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/ai" style={styles.navLink}>{t('header.companyAbout')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/automation" style={styles.navLink}>{t('header.companyContact')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/analytics" style={styles.navLink}>{t('header.companyCareer')}</a></li>
+                  <li style={styles.dropdownItem}><a href="/solutions/cloud" style={styles.navLink}>{t('header.companyJobs')}</a></li>
                 </ul>
               )}
             </li>
 
             {/* Contact Us Button */}
             <li style={styles.navItem}>
-              <Link to="/contact" style={styles.button}>Contact Us</Link>
+              <Link to="/contact" style={styles.button}>{t('header.contactUs')}</Link>
             </li>
           </ul>
         </nav>
@@ -128,8 +131,8 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    position: 'relative', // Ensure the header is a positioning context
-    zIndex: 100, // Ensure the header stays above other content
+    position: 'relative',
+    zIndex: 100,
   },
   title: {
     margin: '0',
@@ -163,7 +166,7 @@ const styles = {
     padding: '0.5rem 0',
     borderRadius: '4px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-    zIndex: 200, // Ensure dropdowns are above other content
+    zIndex: 200,
   },
   dropdownItem: {
     padding: '0.5rem 1rem',

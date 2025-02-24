@@ -1,54 +1,56 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import the translation hook
 
 const Footer = () => {
+  const { t } = useTranslation(); // Initialize the translation hook
+
+  // Define services, solutions, and company links using translation keys
   const services = [
-    { title: 'Data annotation and enhancement', url: '/' },
-    { title: 'Localization - transcription and translation', url: '/about' },
-    { title: 'Data Validation', url: '/services' },
-    { title: 'Custom data sourcing', url: '/portfolio' },
-    { title: 'Content moderation', url: '/portfolio' },
+    { title: t('footer.services.dataAnnotation'), url: '/' },
+    { title: t('footer.services.localization'), url: '/about' },
+    { title: t('footer.services.dataValidation'), url: '/services' },
+    { title: t('footer.services.customDataSourcing'), url: '/portfolio' },
+    { title: t('footer.services.contentModeration'), url: '/portfolio' },
   ];
 
   const solutions = [
-    { title: 'NLP', url: '/' },
-    { title: 'ADAS', url: '/about' },
-    { title: 'Document AI', url: '/services' },
-    { title: 'AI for Voice & Speech Recognition', url: '/services' },
-    { title: 'AI in Education', url: '/services' },
-    { title: 'Generative AI', url: '/services' },
-    { title: 'Conversational AI', url: '/services' },
-   
+    { title: t('footer.solutions.nlp'), url: '/' },
+    { title: t('footer.solutions.adas'), url: '/about' },
+    { title: t('footer.solutions.documentAI'), url: '/services' },
+    { title: t('footer.solutions.voiceSpeechRecognition'), url: '/services' },
+    { title: t('footer.solutions.aiEducation'), url: '/services' },
+    { title: t('footer.solutions.generativeAI'), url: '/services' },
+    { title: t('footer.solutions.conversationalAI'), url: '/services' },
   ];
 
   const company = [
-    { title: 'About', url: '/' },
-    { title: 'Contact', url: '/contact' },
-    { title: 'Career', url: '/career' },
-    { title: 'Jobs', url: '/jobs' },
-   
+    { title: t('footer.company.about'), url: '/' },
+    { title: t('footer.company.contact'), url: '/contact' },
+    { title: t('footer.company.career'), url: '/career' },
+    { title: t('footer.company.jobs'), url: '/jobs' },
   ];
 
   const socialMedia = [
     { name: 'Facebook', url: '#', icon: 'fab fa-facebook' },
     { name: 'Twitter', url: '#', icon: 'fab fa-twitter' },
     { name: 'Instagram', url: '#', icon: 'fab fa-instagram' },
-    { name: 'LinkedIn', url: '#', icon: 'fab fa-linkedin' }
+    { name: 'LinkedIn', url: '#', icon: 'fab fa-linkedin' },
   ];
 
   return (
     <footer style={styles.footer}>
       <div style={styles.footerContent}>
-        {/* Company Info */}
+        {/* Company Section */}
         <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Company Name</h3>
+          <h3 style={styles.sectionTitle}>{t('footer.companyName')}</h3>
           <p style={styles.companyDescription}>
-            Transforming businesses through innovative digital solutions.
+            {t('footer.companyDescription')}
           </p>
         </div>
 
-        {/* Services */}
+        {/* Services Section */}
         <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Services</h3>
+          <h3 style={styles.sectionTitle}>{t('footer.services.title')}</h3>
           <ul style={styles.linkList}>
             {services.map((link, index) => (
               <li key={index} style={styles.listItem}>
@@ -60,8 +62,9 @@ const Footer = () => {
           </ul>
         </div>
 
+        {/* Solutions Section */}
         <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Solutions</h3>
+          <h3 style={styles.sectionTitle}>{t('footer.solutions.title')}</h3>
           <ul style={styles.linkList}>
             {solutions.map((link, index) => (
               <li key={index} style={styles.listItem}>
@@ -73,8 +76,9 @@ const Footer = () => {
           </ul>
         </div>
 
+        {/* Company Links Section */}
         <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Company</h3>
+          <h3 style={styles.sectionTitle}>{t('footer.company.title')}</h3>
           <ul style={styles.linkList}>
             {company.map((link, index) => (
               <li key={index} style={styles.listItem}>
@@ -85,46 +89,19 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-
-        {/* Contact Info */}
-        {/* <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Contact Us</h3>
-          <div style={styles.contactInfo}>
-            <p>123 Business Street</p>
-            <p>New York, NY 10001</p>
-            <p>Email: info@techsolutions.com</p>
-            <p>Phone: (555) 123-4567</p>
-          </div>
-        </div> */}
-
-        {/* Social Media */}
-        {/* <div style={styles.footerSection}>
-          <h3 style={styles.sectionTitle}>Follow Us</h3>
-          <div style={styles.socialLinks}>
-            {socialMedia.map((social, index) => (
-              <a
-                key={index}
-                href={social.url}
-                style={styles.socialLink}
-                aria-label={social.name}
-              >
-                <i className={social.icon} style={styles.socialIcon}></i>
-              </a>
-            ))}
-          </div>
-        </div> */}
       </div>
 
-      {/* Copyright */}
+      {/* Copyright Section */}
       <div style={styles.copyright}>
         <p>
-          © {new Date().getFullYear()} Tech Solutions. All rights reserved.
+          © {new Date().getFullYear()} {t('footer.copyright')}
         </p>
       </div>
     </footer>
   );
 };
 
+// Styles for the component
 const styles = {
   footer: {
     backgroundColor: '#043873',
@@ -163,23 +140,6 @@ const styles = {
   link: {
     color: '#ffffff',
     textDecoration: 'none',
-    transition: 'color 0.3s ease',
-    ':hover': {
-      color: '#007BFF',
-    },
-  },
-  contactInfo: {
-    lineHeight: '1.8',
-    color: '#cccccc',
-  },
-  socialLinks: {
-    display: 'flex',
-    gap: '15px',
-    marginTop: '10px',
-  },
-  socialLink: {
-    color: '#ffffff',
-    fontSize: '1.5rem',
     transition: 'color 0.3s ease',
     ':hover': {
       color: '#007BFF',

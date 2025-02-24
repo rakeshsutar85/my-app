@@ -1,0 +1,224 @@
+{
+  "home": {
+    "title": "Home",
+    "description": "Welcome to the home page!"
+  },
+  "about": {
+    "title": "About",
+    "description": "This is the about page."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Welcome to Our Platform",
+    "description": "Your one-stop solution for all data-related services.",
+    "button": "Get Started"
+  },
+  "header": {
+    "services": "Services",
+    "servicesDataAnnotation": "Data Annotation and Enhancement",
+    "servicesLocalization": "Localization - Transcription and Translation",
+    "servicesDataValidation": "Data Validation",
+    "servicesCustomData": "Custom Data Sourcing",
+    "servicesContentModeration": "Content Moderation",
+    "solutions": "Solutions",
+    "solutionsNLP": "NLP",
+    "solutionsADAS": "ADAS",
+    "solutionsDocumentAI": "Document AI",
+    "solutionsVoiceSpeech": "AI for Voice & Speech Recognition",
+    "solutionsAIEducation": "AI in Education",
+    "solutionsGenerativeAI": "Generative AI",
+    "solutionsConversationalAI": "Conversational AI",
+    "capabilities": "Capabilities",
+    "capabilitiesCustomAI": "Custom AI Model Development",
+    "capabilitiesAIModel": "AI Model Assurance",
+    "capabilitiesLLMOptimization": "Enhanced AI & LLM Optimization",
+    "capabilitiesLicensedData": "Licensed Data Solutions",
+    "adas": "ADAS",
+    "adasAITraining": "AI Training Data",
+    "adasAudioAnnotation": "Audio Annotation",
+    "adasAudioTranscription": "Audio Transcription",
+    "adasComputerVision": "Computer Vision",
+    "adasDataCollection": "Data Collection",
+    "adasNumberPlate": "Automatic Number Plate Recognition",
+    "adasConversationalAI": "Conversational AI",
+    "adasDataAnnotation": "Data Annotation",
+    "adasDataTranscription": "Data Transcription",
+    "company": "Company",
+    "companyAbout": "About",
+    "companyContact": "Contact",
+    "companyCareer": "Career",
+    "companyJobs": "Jobs",
+    "contactUs": "Contact Us"
+  },
+  "achievement": {
+    "heading": "ACHIEVEMENTS",
+    "subheading": "Our KPIs Achieved So Far",
+    "description": "Across a wide range of projects spanning different data types, industries, and geographies worldwide, we have made significant strides in delivering value across the AI value chain. Our diverse experience enables us to tackle unique challenges and optimize solutions tailored to various sectors.",
+    "imagesAnnotated": "Images annotated",
+    "imagesAnnotatedAlt": "Images annotated",
+    "projectsDone": "Projects Done",
+    "projectsDoneAlt": "Projects Done",
+    "languageExperience": "Language Experience",
+    "languageExperienceAlt": "Language Experience",
+    "conversationalAIData": "Conversational AI data sourced",
+    "conversationalAIDataAlt": "Conversational AI data sourced"
+  },
+  "calendar": {
+    "bookAppointment": "Book Your Appointment",
+    "selectedDate": "Selected Date"
+  },
+  "contact": {
+    "contactDetails": "Contact Details",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "contactUs": "Contact Us",
+    "firstNamePlaceholder": "First Name",
+    "lastNamePlaceholder": "Last Name",
+    "emailPlaceholder": "Business email",
+    "companyPlaceholder": "Company",
+    "messagePlaceholder": "Enter your message",
+    "submitButton": "Submit"
+  },
+  "favoriteApps": {
+    "heading": "WORK WITH OUR TECHNOLOGIES",
+    "description": "We specialize in Artificial Intelligence (AI), Machine Learning (ML), Natural Language Processing (NLP), Computer Vision, Document AI, Conversational AI, Healthcare technologies, and ADAS (Advanced Driver-Assistance Systems). Our team is dedicated to pushing the boundaries of what technology can achieve, creating solutions that streamline operations, enhance user experiences, and drive business growth. Whether you're looking to improve efficiency, increase safety, or unlock new insights, we are here to collaborate and help you leverage the latest technological advancements to achieve your goals.",
+    "readMoreButton": "Read more",
+    "audioAnnotationAlt": "Audio Annotation",
+    "audioTranscriptionAlt": "Audio Transcription",
+    "dataTranscriptionAlt": "Data Transcription",
+    "dataValidationAlt": "Data Validation",
+    "dataTranslationAlt": "Data Translation and Transcription",
+    "dataAnnotationAlt": "Data Annotation",
+    "customDataSourceAlt": "Custom Data Source"
+  },
+  "footer": {
+    "companyName": "Company Name",
+    "companyDescription": "Transforming businesses through innovative digital solutions.",
+    "services": {
+      "title": "Services",
+      "dataAnnotation": "Data annotation and enhancement",
+      "localization": "Localization - transcription and translation",
+      "dataValidation": "Data Validation",
+      "customDataSourcing": "Custom data sourcing",
+      "contentModeration": "Content moderation"
+    },
+    "solutions": {
+      "title": "Solutions",
+      "nlp": "NLP",
+      "adas": "ADAS",
+      "documentAI": "Document AI",
+      "voiceSpeechRecognition": "AI for Voice & Speech Recognition",
+      "aiEducation": "AI in Education",
+      "generativeAI": "Generative AI",
+      "conversationalAI": "Conversational AI"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "contact": "Contact",
+      "career": "Career",
+      "jobs": "Jobs"
+    },
+    "copyright": "Tech Solutions. All rights reserved."
+  },
+  "nonbusiness": {
+    "nonBusinessEnquiries": "Non Business Enquiries",
+    "freelanceOpportunities": "Freelance Opportunities",
+    "careerOpportunities": "Career Opportunities",
+    "vendorEnrollment": "Vendor Enrollment",
+    "clickMe": "Click Me",
+    "buttonClicked": "Button Clicked!"
+  },
+  "quality": {
+    "heading": "QUALITY IS MOST IMPORTANT",
+    "subheading": "HOW ARE WE BEST",
+    "companyImageAlt": "Company Logo",
+    "companyName": "COMPANY NAME",
+    "othersImageAlt": "Others Logo",
+    "others": "OTHERS",
+    "dataSecurity": "Data Security and Legal Compliance",
+    "comprehensiveAI": "Comprehensive AI Data Solutions",
+    "worldwideSourcing": "Worldwide Sourcing Capabilities",
+    "superiorQuality": "Superior Quality & Fast TA",
+    "respectedAuthority": "A Respected Authority in AI"
+  },
+  "scaleandgrow": {
+    "heading": "WE HELP YOU SCALE AND GROW - HOW ?",
+    "audioAnnotation": "Audio Annotation",
+    "audioAnnotationAlt": "Audio Annotation Icon",
+    "audioTranscription": "Audio Transcription",
+    "audioTranscriptionAlt": "Audio Transcription Icon",
+    "dataCollection": "Data Collection",
+    "dataCollectionAlt": "Data Collection Icon",
+    "dataTranscription": "Data Transcription",
+    "dataTranscriptionAlt": "Data Transcription Icon",
+    "sellFaster": "Sell Faster"
+  },
+  "testimonials": {
+    "heading": "WHAT OUR CLIENTS SAY",
+    "feedback1": "This product has completely transformed the way we do business. Highly recommended!",
+    "feedback2": "Amazing service and support. The team is always ready to help and deliver beyond expectations.",
+    "feedback3": "The best decision we made was choosing this product. It has exceeded all our expectations.",
+    "feedback4": "Incredible features and excellent customer support. We are very satisfied with the results.",
+    "feedback5": "This product has been a game-changer for our company. Highly recommended!",
+    "feedback6": "The user experience is fantastic, and the support team is always helpful."
+  },
+  "usecases": {
+    "heading": "OUR USE CASES EXPERTISE",
+    "computerVision": {
+      "title": "Computer Vision",
+      "description": "At our organization, we focus on computer vision as a core area of expertise. By leveraging advanced algorithms and machine learning models, we enable machines to interpret and analyze visual data, helping businesses unlock new insights and automate processes."
+    },
+    "nlp": {
+      "title": "NLP",
+      "description": "Our NLP capabilities open new possibilities across various industries, including customer service, healthcare, finance, and more, empowering organizations to automate processes, improve communication, and provide more intuitive, personalized interactions."
+    },
+    "documentAI": {
+      "title": "Document AI",
+      "description": "Our solutions enable businesses to efficiently manage and interpret vast volumes of unstructured data, improving accuracy, reducing manual effort, and accelerating decision-making processes. By leveraging Document AI, we help organizations streamline workflows, enhance compliance, and unlock valuable insights from their documents."
+    },
+    "conversationalAI": {
+      "title": "Conversational AI",
+      "description": "Our Conversational AI solutions help businesses deliver personalized, efficient customer support, automate routine tasks, and improve communication across various touchpoints."
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "We focus on healthcare solutions powered by advanced technologies like AI, machine learning, and data analytics to improve patient outcomes and streamline medical processes."
+    },
+    "adas": {
+      "title": "ADAS",
+      "description": "Our solutions help in providing real-time assistance to drivers through features like lane-keeping assistance, adaptive cruise control, automatic emergency braking, and collision detection. By integrating ADAS, we aim to reduce accidents, improve road safety, and pave the way for autonomous driving innovations in the automotive industry."
+    }
+  },
+  "whatCompanyOffers": {
+    "heading": "WHAT COMPANY OFFERS",
+    "dataValidation": {
+      "title": "Data Validation",
+      "description": "Evaluate your model's initial throughput to obtain an impartial expert opinion on key performance indicators, such as drift, duplication, and ground truth responses, during the early stages."
+    },
+    "dataTranslation": {
+      "title": "Data Transcription and Translation",
+      "description": "Enhance transliteration, relevance, and user acceptance with our localization expertise, ensuring your model adapts seamlessly to the functional, linguistic, and cultural requirements of specific markets."
+    },
+    "dataAnnotation": {
+      "title": "Data Annotation",
+      "description": "Achieve precise data labeling with ~95% accuracy across various data types, ensuring optimal model performance."
+    },
+    "customDataSourcing": {
+      "title": "Custom Data Sourcing",
+      "description": "Acquire high-accuracy, tailored data for your specific model needs from global sources, ensuring full compliance with GDPR, SOC 2, and ISO standards."
+    },
+    "contentModeration": {
+      "title": "Content Moderation",
+      "description": "Our moderation solutions leverage AI and human expertise to detect inappropriate, harmful, or non-compliant material while maintaining platform integrity and user engagement."
+    },
+    "customAIModelDevelopment": {
+      "title": "Custom AI Model Development",
+      "description": "Our expert team specializes in building, training, and optimizing AI models for various applications, ensuring high accuracy, efficiency, and scalability."
+    }
+  }
+}
